@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+       @font-face {
+        font-family: 'love';
+        src: url(fonts/Christmas.otf) format(opentype);
+       }
+                
+
+
+        main {
+            background-color: white;
+            width: 1000px;
+            border-radius: 5px;
+            padding: 20px;
+            margin: auto;
+            box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.541);
+        }
+
+        body {
+            background-image: linear-gradient(to bottom, #113561, #287BE0);
+            background-attachment: fixed;
+        }
+
+        h2 {
+            font-family: 'love', serif;
+            font-weight: normal;
+            
+        }
+
+        #inicial-division {
+
+            margin: auto;
+            width: 100px;
+            border-radius: 5px;
+            background-color: white;
+
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #division {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #content-back {
+            background-color: white;
+            flex-direction: row;
+            text-align: start;
+            margin: auto;
+            width: 100px;
+            border-radius: 5px;
+        }
+
+        #back {
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <h1>Fontes externas</h1>
+        <h2>Exemplo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident dolore nam perspiciatis molestias iste
+            eligendi possimus eius aut praesentium error, eaque adipisci quidem ad consectetur similique expedita quis
+            ratione porro.</p>
+        <h2>Tipos de format()</h2>
+        <ul>
+            <li>opentype (otf)</li>
+            <li>truetype (ttf)</li>
+            <li>embaddeg-opentype</li>
+            <li>truetype-att (open advanced typography)</li>
+            <li>svg</li>
+        </ul>
+    </main>
+    <div id="content-back">
+        <p id="back"><a href="fontes.html" target="_self" rel="internal">Voltar</a></p>
+    </div>
+
+    <div id="inicial-division">
+        <p id="division"><a href="inicial.html" target="_self"
+                rel="prev">Inicio</a></p>
+    </div>
+
+
+</body>
+
+</html>

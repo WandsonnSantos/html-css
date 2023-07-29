@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+    <link rel="shortcut icon" href="Imagem/Icone/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main {
+            width: 1000px;
+            padding: 20px;
+            border-radius: 1%;
+            margin: auto;
+            background-color: white;
+            box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.541);
+        }
+
+        body {
+            background-image: linear-gradient(to bottom, #113561, #287BE0);
+            background-attachment: fixed;
+        }
+
+        #content-paragraph-next {
+            text-align: end;
+            padding: 20px;
+            width: 900px;
+            font-size: 20px;
+
+        }
+
+        #igual>p {
+            text-align: center;
+            font-size: 30px;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Trabalhando com fontes</h1>
+        <h2>Medidas absolutar</h2>
+        <p>cm, mm, in (Polegada), px, pt, pc (Paica)</p>
+        <h2>Medidas relaticas</h2>
+        <p>em, xm, rem, vw, vh, % <br>
+            Geralmente 16px = 1em, 32px = 2em ...</p>
+        <p><a href="https://www.alura.com.br/artigos/guia-de-unidades-no-css?gclid=Cj0KCQjw2eilBhCCARIsAG0Pf8v2tzFA4Mw0uPuiovCBuy78vFZQZJw-IsIqCxhoEieQ8ea_DGs8nooaAupUEALw_wcB"
+                target="_blank" rel="external">Saiba mais</a></p>
+        <p>Recomendaçao oficial da <a href="https://w3c.br/" target="_blank" rel="external">W3c</a>, use PX ou EM</p>
+        <h2>Abreviação de formataçao de fonte</h2>
+        <pre>
+            <code>
+                h1 {
+                    font-size: 16px;
+                    font-family: Arial;
+                    font-weigh: bolder;
+                    font-style: italic;
+                }
+            </code>
+        </pre>
+        <pre>
+            <code>
+                <div id="igual">
+                    <p>=</p>
+                </div>
+                h1 {
+                    font: italic  bolder  16px 'Arial';
+                }
+            </code>
+        </pre>
+        <p>Ordem: font-style -> font-weight -> font-size -> font-family</p>
+        <h2>Indentificar fonte em fotos</h2>
+        <ul>
+            <li><a href="https://www.whatfontis.com/" target="_blank" rel="external">What font is</a></li>
+            <li><a href="https://www.fontsquirrel.com/matcherator" target="_blank" rel="external">Font squirrel</a></li>
+            <li><a href="https://www.myfonts.com/pages/whatthefont" target="_blank" rel="external">Myfonts</a></li>
+        </ul>
+
+        <p id="content-paragraph-next"><a href="fontes02.html">Prox</a></p>
+
+    </main>
+
+
+    <div id="inicial-division">
+        <p id="division"><a href="inicial.html" target="_self"
+                rel="prev">Inicio</a></p>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2? family= Fredericka+the+Great & family= Lumanosimo & family= Permanent+Marker & display=swap');
+
+
+body {
+  background-image: linear-gradient(to bottom, #113561, #287BE0);
+  background-attachment: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.483);
+  text-align: left;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 900px;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 0px 20px;
+}
+
+main {
+  margin: auto;
+  width: 900px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav:hover {
+  text-decoration: underline;
+}
+nav ul li {
+  list-style: none;
+}
+#guia ul li:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#titulo {
+  font-family: 'Permanent Marker', serif;
+  text-align: center;
+  font-weight: bold;
+  height: 80px;
+  text-decoration: underline;
+}
+
+h2,dt {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#imagem-rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
