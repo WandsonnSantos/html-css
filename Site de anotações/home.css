@@ -2,22 +2,22 @@
 
 
 body {
+  align-items: center;
   background-image: linear-gradient(to bottom, #113561, #287BE0);
   background-attachment: scroll;
-  display: flex;
-  flex-direction: column;
 }
 
 header {
+  margin: auto;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.483);
   text-align: left;
-  margin: auto;
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  min-width: 900px;
+  min-width: 300px;
+  max-width: 1000px;
   border-radius: 10px;
   border: 1px solid black;
   padding: 0px 20px;
@@ -25,7 +25,8 @@ header {
 
 main {
   margin: auto;
-  min-width: 900px;
+  min-width: 300px;
+  max-width: 1000px;
   padding: 20px;
   background-color: white;
   border-radius: 10px;
@@ -40,9 +41,11 @@ a {
 nav:hover {
   text-decoration: underline;
 }
+
 nav ul li {
   list-style: none;
 }
+
 #guia ul li:hover {
   font-weight: bold;
   text-decoration: underline;
@@ -56,7 +59,8 @@ nav ul li {
   text-decoration: underline;
 }
 
-h2,dt {
+h2,
+dt {
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -68,5 +72,5 @@ dt {
 #imagem-rodape {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }

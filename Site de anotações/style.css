@@ -2,7 +2,8 @@
 
 main {
     background-color: white;
-    width: 1000px;
+    min-width: 300px;
+    max-width: 1000px;
     border-radius: 1%;
     padding: 20px;
     margin: auto;
