@@ -43,8 +43,9 @@ section {
     padding: 10vh 0vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte2);
+    font-family: var(--fonte3);
     font-size: 17px;
+    font-weight: 400;
     
 }
 .imagem>p {
