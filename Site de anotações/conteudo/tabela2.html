@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela grande</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 500px
+        }
+
+        caption {
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        thead {
+            background-color: grey;
+ 
+        }
+        th {
+            
+            border: 1px solid black;
+        }
+        tr:hover {
+            background-color: rgba(134, 132, 132, 0.489);
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px 4px 8px 8px;
+
+        }
+
+
+        .num {
+            text-align: right;
+        }
+
+        tfoot {
+            background-color: grey;
+        
+        }
+
+        #back:hover {
+            text-decoration: underline;
+            font-weight: 600;
+        }
+
+        #back {
+            padding: 20px 0px 0px 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>Anatomia de tabelas grandes</h1>
+        <table>
+            <caption>Campeões mais jogados League of Legends</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Campeão</th>
+                    <th scope="col">Jogos Jogados</th>
+                    <th scope="col" style="width: 100px;">Taxa de vitória</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://www.op.gg/champions/kaisa/adc/build" target="_blank" rel="external">Kai'Sa</a></td>
+                    <td class="num">4 539 598</td>
+                    <td class="num">50,52%</td>
+                </tr>
+                <tr class="row">
+                    <td><a href="https://www.op.gg/champions/ezreal/adc/build" target="_blank" rel="external">Ezreal</a></td>
+                    <td class="num">3 371 645</td>
+                    <td class="num">49,52%</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.op.gg/champions/ashe/adc/build" target="_blank" rel="external">Ashe</a></td>
+                    <td class="num">2 795 729</td>
+                    <td class="num">51.12%</td>
+                </tr>
+                <tr class="row">
+                    <td><a href="https://www.op.gg/champions/lux/support/build" target="_blank" rel="external">Lux</a></td>
+                    <td class="num">2 790 934</td>
+                    <td class="num">50.1%</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.op.gg/champions/missfortune" target="_blank" rel="external">Miss Fotrune</a></td>
+                    <td class="num">2 573 305</td>
+                    <td class="num">51.71%</td>
+                </tr>
+                <tr class="row">
+                    <td><a href="https://www.op.gg/champions/yasuo/mid/build" target="_blank" rel="external">Yasuo</a></td>
+                    <td class="num">2 254 598 </td>
+                    <td class="num">48.65%</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.op.gg/champions/yone" target="_blank" rel="external">Yone</a></td>
+                    <td class="num">2 060 506 </td>
+                    <td class="num">48.83%</td>
+                </tr>
+                <tr class="row">
+                    <td><a href="https://www.op.gg/champions/zed/mid/build" target="_blank" rel="external">Zed</a></td>
+                    <td class="num">1 885 194 </td>
+                    <td class="num">49.82%</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.op.gg/champions/kayn/jungle/build" target="_blank" rel="external">Kayn</a></td>
+                    <td class="num">1 857 877 </td>
+                    <td class="num">50.99% </td>
+                </tr>
+                <tr class="row">
+                    <td><a href="https://www.op.gg/champions/jhin/adc/build" target="_blank" rel="external">Jhin</a></td>
+                    <td class="num">1 802 592</td>
+                    <td class="num">50.5%</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total de Jogos<th>
+                    <th">23.677.380<th>
+                </tr>
+            </tfoot>
+        </table>
+        <div id="back">
+            <a href="Tabelas.html">Voltar</a>
+        </div>
+    </main>
+    <div id="inicial-division">
+        <p id="division"><a class="inicio" href="../home.html" target="_self" rel="prev">Inicio</a></p>
+
+</body>
+
+</html>

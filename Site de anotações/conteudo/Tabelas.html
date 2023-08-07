@@ -6,6 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        li {
+            padding: 2px;
+        }
+        table {
+            border-collapse: collapse;
+
+            width: 300px;
+            height: 300px;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: top;
+            padding: 8px;
+
+        }
+
+        .linha {
+            background-color: grey;
+        }
+
+        .celula {
+            background-color: grey;
+        }
+        #prox:hover {
+            text-decoration: underline;
+            font-weight: 600;
+            
+        }
+        #prox {
+            font-size: 20px;
+            text-align: right;
+            padding: 0px 20px;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -17,11 +55,30 @@
             <li>Table header = Cabeçalho de tabela</li>
             <li>Table data = Dado de tabela</li>
         </ul>
-        
         <table>
-
+            <tr>
+                <td>A1</td>
+                <td class="celula">B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td class="celula">A2</td>
+                <td>B2</td>
+                <td class="celula">C2</td>
+            </tr>
+            <tr class="linha">
+                <td>A3</td>
+                <td>B3</td>
+                <td>C3</td>
+            </tr>
         </table>
+
+        <div id="prox">
+            <p><a href="tabela2.html" target="_self" rel="next">Prox</a></p>
+        </div>
     </main>
+    <div id="inicial-division">
+        <p id="division"><a href="../home.html" target="_self" rel="prev">Inicio</a></p>
 </body>
 
 </html>
