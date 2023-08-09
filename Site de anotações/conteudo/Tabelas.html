@@ -7,6 +7,9 @@
     <title>Tabelas</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        .container {
+            overflow-x: auto;
+        }
         li {
             padding: 2px;
         }
@@ -55,23 +58,25 @@
             <li>Table header = Cabeçalho de tabela</li>
             <li>Table data = Dado de tabela</li>
         </ul>
-        <table>
-            <tr>
-                <td>A1</td>
-                <td class="celula">B1</td>
-                <td>C1</td>
-            </tr>
-            <tr>
-                <td class="celula">A2</td>
-                <td>B2</td>
-                <td class="celula">C2</td>
-            </tr>
-            <tr class="linha">
-                <td>A3</td>
-                <td>B3</td>
-                <td>C3</td>
-            </tr>
-        </table>
+        <div class="container">
+            <table>
+                <tr>
+                    <td>A1</td>
+                    <td class="celula">B1</td>
+                    <td>C1</td>
+                </tr>
+                <tr>
+                    <td class="celula">A2</td>
+                    <td>B2</td>
+                    <td class="celula">C2</td>
+                </tr>
+                <tr class="linha">
+                    <td>A3</td>
+                    <td>B3</td>
+                    <td>C3</td>
+                </tr>
+            </table>
+        </div>
 
         <div id="prox">
             <p><a href="tabela2.html" target="_self" rel="next">Prox</a></p>
