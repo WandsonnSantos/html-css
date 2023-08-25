@@ -105,5 +105,7 @@ footer {
 
     .content__link {
         font-size: 0.9em;
+        display: flex;
+        justify-content: space-between;
     }
 }
