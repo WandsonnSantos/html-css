@@ -9,7 +9,6 @@
 
 body {
     min-width: 300px;
-    max-width: 1000px;
     text-align: center;
     margin: auto;
 }
@@ -33,7 +32,8 @@ body {
 .content__list {
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    max-width: 1000px;
+    margin: auto;
    
 }
 .content__iten {
