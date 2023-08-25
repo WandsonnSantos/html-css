@@ -46,7 +46,7 @@ nav ul li {
   list-style: none;
 }
 
-#guia ul li:hover {
+#guia ul a:hover {
   font-weight: bold;
   text-decoration: underline;
 }
