@@ -46,7 +46,7 @@ nav ul li {
   list-style: none;
 }
 
-#guia ul a:hover {
+ul a:hover {
   font-weight: bold;
   text-decoration: underline;
 }
@@ -59,8 +59,7 @@ nav ul li {
   text-decoration: underline;
 }
 
-h2,
-dt {
+h2,dt {
   font-family: 'Times New Roman', Times, serif;
 }
 
