@@ -38,19 +38,25 @@ img {
 
 .img--phone {display: block;}
 
-#inicial-division {
-   display: flex;
-   justify-content:center;
-   text-align: center;
-   padding: 20px;
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
 }
 
-#division a {
-    color: black;
+.inicio__button {
     text-decoration: none;
-
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.2rem;
 }
 
-#division a:hover {
+.inicio__button:hover {
     text-decoration: underline;
 }
+

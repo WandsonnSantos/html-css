@@ -3,8 +3,9 @@
 
 body {
   align-items: center;
-  background-image: linear-gradient(to bottom, #113561, #287BE0);
+  background: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-attachment: scroll;
+  
 }
 
 header {
@@ -16,17 +17,15 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  min-width: 300px;
-  max-width: 1000px;
+  
   border-radius: 10px;
   border: 1px solid black;
-  padding: 0px 20px;
+  padding: 0px 100px;
 }
 
 main {
   margin: auto;
   min-width: 300px;
-  max-width: 1000px;
   padding: 20px;
   background-color: white;
   border-radius: 10px;
@@ -59,6 +58,10 @@ ul a:hover {
   text-decoration: underline;
 }
 
+.guia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 h2,dt {
   font-family: 'Times New Roman', Times, serif;
 }
@@ -68,8 +71,36 @@ dt {
   font-size: 20px;
 }
 
-#imagem-rodape {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+footer {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.872);
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1px 3px;
+  text-align: center;
 }
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__link{
+  color: white;
+  box-sizing: border-box;
+}
+
+.footer__link:hover {
+  
+  font-weight: normal;
+}
+
+footer img {
+  width: 20px;
+  
+}
+
+
